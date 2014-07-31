@@ -1,4 +1,4 @@
-package scramble;
+package scrabble;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,7 +21,7 @@ public class Player {
         this.id=id;
         hand=new ArrayList<Letter>();
         bundle = ResourceBundle.getBundle(
-            "scramble.Localization", locale);
+            "scrabble.Localization", locale);
         s = new Scanner(System.in, bundle.getString("charset"));
     }
     

@@ -1,4 +1,4 @@
-package scramble;
+package scrabble;
 
 import java.util.ListResourceBundle;
 

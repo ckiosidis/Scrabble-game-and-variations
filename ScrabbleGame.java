@@ -1,10 +1,10 @@
-package scramble;
+package scrabble;
 
 import java.util.Scanner;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class Scramble {
+public class ScrabbleGame {
 
     public static void main(String[] args) {
         Locale locale;

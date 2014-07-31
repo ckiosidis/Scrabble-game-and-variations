@@ -1,4 +1,4 @@
-package scramble;
+package scrabble;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -26,7 +26,7 @@ public abstract class Scrabble {
         this.x=x;
         this.y=y;
         bundle = ResourceBundle.getBundle(
-            "scramble.Localization", locale);
+            "scrabble.Localization", locale);
         s= new Scanner(System.in);
         scanner = new Scanner(System.in, bundle.getString("charset"));
         

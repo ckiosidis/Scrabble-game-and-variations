@@ -1,4 +1,4 @@
-package scramble;
+package scrabble;
 
 public class Cell {
     

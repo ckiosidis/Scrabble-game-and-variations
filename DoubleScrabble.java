@@ -1,4 +1,4 @@
-package scramble;
+package scrabble;
 
 import java.util.Locale;
 public class DoubleScrabble extends Scrabble {
